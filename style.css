@@ -2,36 +2,37 @@ body {
     box-sizing: border-box;
     background-color: #E4E1E1;
     text-align: center;
-    margin: auto;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
     font-family: "Arial", Verdana, Tahoma, sans-serif, serif;
     color: white;
     font-style: normal;
     font-size: 100%;
-    padding: 30px;
     max-width: 1024px;
-    margin: 30px 10px;
+    margin: auto;
+    padding: 30px;
       }
       
 h1 {
     font-size: 2em;
+    background-color: #A1E4CC;
     }
       
 h2 {
     font-size: 1.6em;
     }
-      
+
 p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     }
-ul {
-    list-style-position: inside;
+ul.funlist {
+    list-style-position: outside;
+    font-size: 1.3em;
     }
 a:link {
     background-color: white;
     color: #726D6D;
     display: block;
+    font-size: 1.3em;
   }
   a:visited {
     color: #726D6D;
@@ -43,40 +44,54 @@ a:link {
     color:#726D6D;
   }
 img {
-    border: 15px double #AFABAB;
+    border: 15px double #A1E4CC;
     margin: 10px;
+    max-width: 480px;
+    border-radius: 50%;
+    position: relative; 
+    box-shadow: 60px 20px #A1E4CC;
   }
   
 .picDiv{
     padding: 10px;
-    width:50%;
-    
+    position: relative; 
+    justify-content: center;
 }
 .intro{
   padding: 10px;
-  width:100%;
+  width: 30%;
+  position: absolute;
+  top: 400px;
+  left: 200px;
 }
-.middle{
+.top{
+  position: relative;
+  text-align: center;
+  justify-content: center;
   padding: 10px;
-  width:100%;
+  width: 100%;
   display: flex;
-  max-height: 600px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0516/0642/1661/products/screen_2x_52877d28-3cac-407f-95db-195388d27951_4472x.jpg?v=1624829448");
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .bioDiv {
-    padding: 10px 70px 10px 70px;
-    background-color: #C6C3C3;
-    padding: 5px;
-    width: 50%;
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 400px;
 }
 .funDiv {
-    background-color: #AFABAB;
+    background-color: #ffffff;
     list-style: circle;
-    padding: 5px;
+    width: 100%;
+    min-height: 400px;
 }
 .linksDiv {
-    border: 3px solid #726D6D;
-    background-color: #9a9898;
-
+    border: 3px double #A1E4CC;
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 400px;
 }
 /* @media (min-width: 30em) {  */
 /* } */
