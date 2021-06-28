@@ -4,7 +4,6 @@ body {
     text-align: center;
     justify-content: center;
     font-family: "Arial", Verdana, Tahoma, sans-serif, serif;
-    color: white;
     font-style: normal;
     font-size: 100%;
     max-width: 1024px;
@@ -15,33 +14,36 @@ body {
 h1 {
     font-size: 2em;
     background-color: #A1E4CC;
+    color: white;
     }
       
 h2 {
     font-size: 1.6em;
+    color: black;
     }
 
 p {
     font-size: 1.3em;
+    color: black;
     }
 ul.funlist {
     list-style-position: outside;
     font-size: 1.3em;
     }
 a:link {
-    background-color: white;
-    color: #726D6D;
+    background-color: #A1E4CC;
+    color: #FFFFFF;
     display: block;
     font-size: 1.3em;
   }
   a:visited {
-    color: #726D6D;
+    color: #FFFFFF;
   }
   a:hover {
-    color: black;
+    color: #000000;
   }
   a:active {
-    color:#726D6D;
+    color:#63c7a4;
   }
 img {
     border: 15px double #A1E4CC;
